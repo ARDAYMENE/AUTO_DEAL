@@ -1,0 +1,57 @@
+body{
+                     
+    background-image: url(resources/a.png);
+    background-attachment: fixed;
+    background-position: center;
+    color:  #ffffff;
+}
+
+.h{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+    justify-content: center;
+    
+}
+.type{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.bouton{
+    margin: 10px;
+    
+}
+
+
+    nav ul li i{
+        color: #ffffff;
+        font-size: 26px;
+        padding: 0 12px;
+        }
+        .sidenav ul li a {
+            color: #ffffff; /* تغيير لون النص إلى اللون الأبيض */
+            display: flex; /* جعل العناصر مرنة لتحكم في توزيعها */
+            align-items: center; /* توسيط العناصر عمودياً */
+        }
+        
+        .sidenav ul li i {
+            font-size: 26px;
+            padding: 0 12px;
+        }
+        
+        .sidenav {
+            width: 250px;
+            height: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #0066ff;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        

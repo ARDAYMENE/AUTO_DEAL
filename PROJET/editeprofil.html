@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحديث المعلومات الشخصية</title>
+    <link rel="stylesheet" href="editeprofil.css">
+</head>
+<body>
+    <div class="container">
+        <h2>تحديث المعلومات الشخصية</h2>
+        <form action="editeprofil.php" method="post" enctype="multipart/form-data">
+            <label for="username">الاسم:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">كلمة المرور:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="new_password">كلمة المرور الجديدة:</label>
+            <input type="password" id="new_password" name="new_password">
+            <label for="profile_picture">صورة الملف الشخصي:</label>
+            <input type="file" id="profile_picture" name="profile_picture">
+            <button type="submit">تحديث</button>
+        </form>
+    </div>
+</body>
+</html>
