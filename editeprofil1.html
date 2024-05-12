@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile </title>
+    <link rel="stylesheet" href="editeprofil1.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Edit Profile  </h2>
+        <form action="editeprofil1.php" method="get" enctype="multipart/form-data">
+            <label for="username">Nom : </label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required>
+            <label for="new_password">Nouveau mot de passe : </label>
+            <input type="password" id="new_password" name="new_password">
+            <label for="profile_picture">Photo profile : </label>
+            <input type="file" name="update_image" accept="image/jpg, image/jpeg, image/png" class="box">
+            <!--  <input type="file" id="profile_picture" name="profile_picture">-->
+            <button type="submit">Actualiser</button>
+
+            <a href="profile.php" class="delete-btn"> Annuler </a>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>se connecter / s'inscrire</title>
+</head>
+
+<body>
+    <div class="bg-img"></div>
+    <div class="container">
+        <div class="signin-signup">
+            <form action="seconx.php" method="get" class="sign-in-form">
+
+           
+
+                <h2 class="title">Se connecter</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="email" id="email" name="Email" placeholder="Email" required title="Entre votre Email">
+                   
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="Motdepasse" placeholder="Mot de passe" required >
+                   
+                </div>
+                <a href="index.php"><input type="submit" value="Connexion" class="btn"></a> 
+                <p class="social-text"></p>
+                <div class="social-media">
+                  
+                </div>
+                <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
+            </form>
+            <form action="insert.php"  method="GET" class="sign-up-form">
+                <h2 class="title">S'inscrire</h2>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="Nom" placeholder="Nom" required>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="Prénom" placeholder="Prenom" required>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="Motdepasse" placeholder="Mot de passe" required  >
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="Email" placeholder="Email" required title="Entre votre Email">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-calendar"></i>
+                    <input type="date" name="Datedenaissance" placeholder="Date de naissance" required>
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" name="Numerodetéléphone" placeholder="Numero de telephone" required>
+                </div>
+                <input type="submit" value="S'inscrire" class="btn">
+                <p class="social-text"></p>
+                <div class="social-media">
+                 
+                </div>
+                <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Vous avez deja un compte !</h3>
+                    <p></p>
+                    <button class="btn" id="sign-in-btn">Se connecter</button>
+                </div>
+                <img src="ad.png" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>   nouveau client ?</h3>
+                    <p></p>
+                   <button class="btn" id="sign-up-btn" >S'inscrire</button>
+                </div>
+                <img src="ad.png" alt="" class="image">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

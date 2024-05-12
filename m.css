@@ -1,0 +1,65 @@
+body{
+                     
+    background-image: url(resources/a.png);
+    background-attachment: fixed;
+    background-position: center;
+    color:  #ffffff;
+}
+
+.h{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+    justify-content: center;
+    
+}
+.type{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.bouton{
+    margin: 10px;
+    
+}
+
+
+    nav ul li i{
+        color: #ffffff;
+        font-size: 5px;
+        padding: 5 5px;
+        }
+        .sidenav ul li a {
+            color: #ffffff; /* تغيير لون النص إلى اللون الأبيض */
+            display: flex; /* جعل العناصر مرنة لتحكم في توزيعها */
+            align-items: center; /* توسيط العناصر عمودياً */
+        }
+        
+        .sidenav ul li i {
+            font-size: 26px;
+            padding: 0 5px;
+        }
+        
+        .sidenav {
+            width: 90px;
+            height: 12%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+       
+            overflow-x: hidden;
+            padding-top: 10px;
+        }
+        .sidenav ul {
+            list-style: none; /* إزالة نقاط القائمة */
+            padding: 0; /* تقليل التباعد الداخلي للقائمة إلى صفر */
+        }
+        
+        .sidenav ul li {
+            margin-bottom: 10px; /* تقليل التباعد بين العناصر */
+        }
+              
